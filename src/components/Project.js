@@ -1,15 +1,18 @@
 import React from 'react';
 
-export default function Project() {
+export default function Project({name, link, description, image}) {
 
 
     return(
-        <>
-        Project 1 <br></br>
-        Project 2 <br></br>
-        Project 3 <br></br>
-        Project 4 <br></br>
-        Project 5 <br></br>
-        </>
+        <div class="Tiles runbuddy">
+            <a href={link}><div class="Tile-img">
+            </div>
+            <div class="img-text">
+                <h4>{name}</h4>
+                <p>{description}</p>
+                <img src={image} />
+            </div></a>
+
+        </div>
     );
 }

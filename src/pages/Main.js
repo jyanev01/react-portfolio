@@ -1,9 +1,11 @@
 import React from 'react';
 import Button from '../components/Button'
+
 const Main = () => {
   return (
     <div>
-        hello
+        <h1 className="title is-1">hello</h1>
+        
         <Button></Button>
     </div>
   );

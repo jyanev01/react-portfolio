@@ -3,48 +3,48 @@ import './App.css';
 import Main from './pages/Main';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Project from './components/Project';
+import Portfolio from './pages/Portfolio';
 import AboutMe from './pages/AboutMe';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
+
 import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Link
+  Link,
+  BrowserRouter
 } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Header /> <br /> <br />
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route 
+          path="/"
+          element={<Main />}
+        />
+        <Route
+          path="/about"
+          element={<AboutMe/>}
+        />
+        <Route
+          path="/portfolio"
+          element={<Portfolio/>}
+        />
+        <Route
+          path="/contact"
+          element={<Contact/>}
+        />
+        <Route
+          path="/resume"
+          element={<Resume/>}
+        />
+      </Routes>
 
-      <Project />  <br /> <br />
-
-      <Footer /> <br /> <br />
-
-
-
-      <Router>
-            <Link to="/"> 
-                Home
-            </Link>
-
-            <Link to="/about">
-                About
-            </Link>
-        </Router>
-        
-
-
-       <Routes>
-            <Route exact path="/">
-                <App />
-            </Route>
-            <Route exact path="/about">
-                <AboutMe />
-            </Route>
-        </Routes>
-     
-    </div>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

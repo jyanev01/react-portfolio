@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useState} from 'react';
+import {NavLink} from 'react-router-dom';
 import {
     BrowserRouter as Router,
     Route,
@@ -9,34 +10,66 @@ import App from '../App';
 import AboutMe from '../pages/AboutMe';
 
 
-export default function Navigation(){
+const Navigation = () => {
 
     return (
-        <>
-        Navigation portion  <br />
-        
-        <Router>
-            <Link to="/"> 
-                Home
-            </Link>
+        <nav
+      className="navbar is-primary"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div className="container">
 
-            <Link to="/about">
-                About
-            </Link>
-        </Router>
-        
+        <div className={`navbar-menu `}>
+          <div className="navbar-start">
+            <NavLink 
+              className="navbar-item" 
+              activeClassName="is-active" 
+              to="/"
+            >
+              Main
+            </NavLink>
+
+            <NavLink
+              className="navbar-item"
+              activeClassName="is-active"
+              to="/about"
+            >
+              About Me
+            </NavLink>
+
+            <NavLink
+              className="navbar-item"
+              activeClassName="is-active"
+              to="/portfolio"
+            >
+              Portfolio
+            </NavLink>
+
+            <NavLink
+              className="navbar-item"
+              activeClassName="is-active"
+              to="/contact"
+            >
+              Contact Me
+            </NavLink>
+
+            <NavLink
+              className="navbar-item"
+              activeClassName="is-active"
+              to="/resume"
+            >
+              Resume
+            </NavLink>
 
 
-       <Routes>
-            <Route exact path="/">
-                <App />
-            </Route>
-            <Route exact path="/about">
-                <AboutMe />
-            </Route>
-        </Routes>
-        
-        </>
-    );
 
-}
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navigation;
