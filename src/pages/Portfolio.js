@@ -11,8 +11,13 @@ export default function Portfolio() {
             description = "HTML/CSS"
             image="./assets/images/hero-bg.jpg"
             />
+
             <Project name="Second Pro" link = "test"
             />
+
+            <Project name="Second Pro" link = "test"
+            />
+
         </ul>
     );
 }
