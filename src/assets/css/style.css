@@ -1,0 +1,310 @@
+:root {
+    --primary-color: #006db3;
+    --secondary-color:#025a8d;
+    --tertiary-color:#2b2b2b;
+    --quarternary-color: black;
+    --primary: #006db3;
+    --secondary: #025a8d;
+    --dark-gray: #2b2b2b;
+    --med-gray: #464646;
+    --light-gray: #707070;
+    --black: #000000;
+    --white: #ffffff;
+    --off-white: #f4f4f4;
+    --light-green: #66bb6a;
+    --lighter-green: #98ee99;
+    --light-blue: #63ccff;
+    --dark-blue: #039be5;
+    --inline-code-red: #a5030b;
+    --box-shadow-color: #00000025;
+    --standard-font-family: "Roboto", sans-serif;
+    --transcript-primary: #2e3b45;
+    --transcript-secondary: #39454f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--secondary-color);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Heade/ NAV Bar Style */
+/* apply to <header> */
+header{
+    padding: 20px 35px;
+    background-color: var(--med-gray);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    top: 0;
+    }
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--light-blue);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--light-blue);
+}
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    background:var(--light-green);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow:none;
+}
+
+/* Headers End */
+
+/* Cool Stuff Picture Style */
+.Cool-Subtitle {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding:0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 10%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.Cool-Subtitle p {
+    font-size: 36px;
+    font-weight: Bold;
+    position: absolute;
+    bottom: 80px;
+    right: 160px;
+    color:var(--off-white)
+}
+
+/* Cool Subtitle section end */
+
+/* All Tiles Styling */
+/* .about h2, .tiles h2, .contact h2 {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+
+} */
+
+/* About me Section start */
+.aboutTitle {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+}
+
+.vertical {
+    border-left: 6px solid black;
+}
+
+
+.AboutTitle3  {
+    font:bold;
+    text-align: center;
+    padding: 20px;
+    line-height: 1;
+}
+
+
+
+/* About section END */
+
+/* Work section Begin */
+.work-title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 40px;    
+}
+
+.vertical {
+    border-left: 6px solid black;
+}
+
+.workTitle {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+}
+
+.workTitle3  {
+    font:bold;
+    text-align: center;
+    padding: 20px;
+    line-height: 6;
+}
+
+
+.Tiles-wrapper {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.Tiles-container {
+    display: flex;
+    position: relative;
+    width: calc(100% + 500px);
+    flex-wrap: wrap;
+    
+}
+
+
+.Tiles {
+    display: inline-block;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    min-height: 20px;
+    line-height: 19px;
+    text-align: center;
+    border: 1px solid black
+}
+
+.img-text {
+    bottom:0;
+    background-color: lightblue;
+    display: inline-block;
+}
+
+.surfreport {
+    flex: 0 0 calc(90%);
+    text-align: left;
+    background-image: url('../images/surf.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.surfreport:hover {
+    text-shadow:none;
+    opacity: 0.7;
+}
+
+
+.Pokegen {
+    flex: 0 0 calc(45%);
+    text-align: left;
+    background-image: url('../images/hero-pokegen_bg.png');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.Pokegen:hover {
+    text-shadow:none;
+    opacity: 0.7;
+}
+
+
+.calculator {
+    flex: 0 0 calc(45%);
+    text-align: left;
+    background-image: url('../images/deployed1.png');
+    background-size: cover;
+    background-position: 50% 50%;
+
+}
+
+.calculator:hover {
+    text-shadow:none;
+    opacity: 0.7;
+}
+
+
+.pastelpuzzels {
+    flex: 0 0 calc(45%);
+    text-align: left;
+    background-image: url('../images/pastel-puzzels.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+
+}
+
+.pastelpuzzels:hover {
+    text-shadow:none;
+    opacity: 0.7;
+}
+
+
+.runbuddy {
+    flex: 0 0 calc(45%);
+    text-align: left;
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.runbuddy:hover {
+    text-shadow:none;
+    opacity: 0.7;
+}
+
+/* Work Section END */
+
+/* Contact me CSS Styling BEGIN */
+
+.Contact {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 40px;
+}
+
+.vertical {
+    border-left: 6px solid black;
+}
+
+/* Contact me CSS Styling END */
+
+
+/*  All section styles */
+section {
+    padding: 50px;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER
+@media screen and (max-width:980px) {
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+/* @media screen and (max-width:9 768px) {
+
+} */
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+/* @media screen and (max-width:575px) {
+
+} */ 

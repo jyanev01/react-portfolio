@@ -9,13 +9,21 @@ export default function Portfolio() {
             name="Run Buddy" 
             link="https://jyanev01.github.io/Run-Buddy/" 
             description = "HTML/CSS"
-            image="./assets/images/hero-bg.jpg"
+            image="../assets/images/hero-bg.jpg"
             />
 
-            <Project name="Second Pro" link = "test"
+            <Project 
+            name="Pokegen" 
+            link="https://desolate-ridge-10974.herokuapp.com/" 
+            description = "Full-Stack Generator"
+            image='../assets'
             />
 
-            <Project name="Second Pro" link = "test"
+            <Project 
+            name="Cocktail Finder" 
+            link="https://jyanev01.github.io/Cocktail_Finder/" 
+            description = "HTML/CSS/JavaScript"
+            image="../assets/images/deployed1.png"
             />
 
         </ul>

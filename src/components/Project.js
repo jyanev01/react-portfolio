@@ -10,7 +10,7 @@ export default function Project({name, link, description, image}) {
             <div class="img-text">
                 <h4>{name}</h4>
                 <p>{description}</p>
-                <img src={image} />
+                <img src={image} alt="image"/>
             </div></a>
 
         </div>
