@@ -1,10 +1,10 @@
-import React, {useState} from 'react';
-import {NavLink} from 'react-router-dom';
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import {
-    BrowserRouter as Router,
-    Route,
-    Routes,
-    Link
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Link
 } from 'react-router-dom';
 import App from '../App';
 import AboutMe from '../pages/AboutMe';
@@ -12,8 +12,8 @@ import AboutMe from '../pages/AboutMe';
 
 const Navigation = () => {
 
-    return (
-        <nav
+  return (
+    <nav
       className="navbar is-primary"
       role="navigation"
       aria-label="main navigation"
@@ -22,9 +22,12 @@ const Navigation = () => {
 
         <div className={`navbar-menu `}>
           <div className="navbar-start">
-            <NavLink 
-              className="navbar-item" 
-              activeClassName="is-active" 
+            <p className="navbar-item">
+              JORDAN'S PORTFOLIO
+            </p>
+            <NavLink
+              className="navbar-item"
+              activeClassName="is-active"
               to="/"
             >
               Main
