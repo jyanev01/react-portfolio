@@ -6,18 +6,25 @@ import jsIcon from "./images/javascript.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
 
+// Projects Icon
+import pokeGen from "./images/hero-pokegen_bg.png"
+import cockTail from "./images/cocktail_logo.png"
+import runBuddy from "./images/hero-bg.jpg"
+
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
+// import codepenIcon from "./images/codepen.svg"
+// import dribbbleIcon from "./images/dribbble.svg"
+// import instagramIcon from "./images/instagram.svg"
+import linkedInIcon from "./images/LI-In-Bug.png"
+
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "Jordan Y",
+  name: "Jordan ",
   headerTagline: [
     //Line 1 For Header
     "Building digital",
@@ -28,7 +35,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Full Stack Web Developer with a decade of experience in finance and accounting",
 
   //Contact Email
   contactEmail: "jordanyanev@gmail.com",
@@ -38,34 +45,33 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "PokeGen", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "A place where users can create their own pokemon cards.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: pokeGen,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://desolate-ridge-10974.herokuapp.com/",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Cocktail Finder", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Randomly generate a cocktail based on user input of single type of liquor. Great for date nights in or just some inspiration for your next meal.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: cockTail,
+        
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://jyanev01.github.io/Cocktail_Finder/",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Run Buddy", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "First ever website created; completed with a form input and CSS effects.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        runBuddy,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://jyanev01.github.io/Run-Buddy/",
     },
     {
       title: "Project Four", //Project Title - Add Your Project Title Here
@@ -171,22 +177,29 @@ export default {
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "Open to opportunities:",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/jyanev01" },
-    {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
+    { 
+      img: githubIcon, 
+      url: "https://github.com/jyanev01" 
     },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
+    { 
+      img: linkedInIcon, 
+      url: "https://www.linkedin.com/in/jordanyanev/" 
     },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
-    },
+    // {
+    //   img: codepenIcon,
+    //   url: "https://www.codepen.com/",
+    // },
+    // {
+    //   img: dribbbleIcon,
+    //   url: "https://dribbble.com/chetanverma",
+    // },
+    // {
+    //   img: instagramIcon,
+    //   url: "https://www.instagram.com/",
+    // },
   ],
 
   // End Contact Section ---------------
