@@ -176,7 +176,7 @@ export default {
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/jyanev01" },
     {
-      img: linkedinIcon,
+      img: codepenIcon,
       url: "https://www.codepen.com/",
     },
     {
