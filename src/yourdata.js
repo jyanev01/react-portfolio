@@ -6,6 +6,8 @@ import jsIcon from "./images/javascript.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
 
+// test
+
 // Projects Icon
 import pokeGen from "./images/hero-pokegen_bg.png"
 import cockTail from "./images/cocktail_logo.png"
