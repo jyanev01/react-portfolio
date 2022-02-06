@@ -9,7 +9,7 @@ import codeIcon from "./images/code.svg"
 // test
 
 // Projects Icon
-import pokeGen from "./images/hero-pokegen_bg.png"
+import pokeGen from "./images/hero-pokegen_bg.svg"
 import cockTail from "./images/cocktail_logo.png"
 import runBuddy from "./images/hero-bg.jpg"
 import weddingPhoto from "./images/Santorini-28.jpg"
