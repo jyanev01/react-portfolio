@@ -10,7 +10,7 @@ import codeIcon from "./images/code.svg"
 
 // Projects Icon
 import pokeGen from "./images/hero-pokegen_bg.svg"
-import cockTail from "./images/cocktail_logo.png"
+import cockTail from "./images/cocktail_logo.svg"
 import runBuddy from "./images/hero-bg.jpg"
 import weddingPhoto from "./images/Santorini-28.jpg"
 
