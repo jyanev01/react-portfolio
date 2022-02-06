@@ -9,9 +9,9 @@ import codeIcon from "./images/code.svg"
 // test
 
 // Projects Icon
-import pokeGen from "./images/hero-pokegen_bg.svg"
-import cockTail from "./images/cocktail_logo.svg"
-import runBuddy from "./images/hero-bg.jpg"
+// import pokeGen from "./images/hero-pokegen_bg.svg"
+// import cockTail from "./images/cocktail_logo.svg"
+// import runBuddy from "./images/hero-bg.jpg"
 import weddingPhoto from "./images/Santorini-28.jpg"
 
 
@@ -54,7 +54,7 @@ export default {
       para:
         "A place where users can create their own pokemon cards.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: pokeGen,
+      imageSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png",
       //Project URL - Add Your Project Url Here
       url: "https://desolate-ridge-10974.herokuapp.com/",
     },
@@ -63,7 +63,7 @@ export default {
       para:
         "Randomly generate a cocktail based on user input of single type of liquor. Great for date nights in or just some inspiration for your next meal.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: cockTail,
+      imageSrc: "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/05/22/13/gin-cocktails.jpg?quality=75&width=982&height=726&auto=webp",
         
       //Project URL - Add Your Project Url Here
       url: "https://jyanev01.github.io/Cocktail_Finder/",
@@ -74,7 +74,7 @@ export default {
         "First ever website created; completed with a form input and CSS effects.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        runBuddy,
+        "https://s.abcnews.com/images/Health/GTY_two_runners_as_151204_16x9_992.jpg",
       //Project URL - Add Your Project Url Here
       url: "https://jyanev01.github.io/Run-Buddy/",
     },
@@ -84,7 +84,7 @@ export default {
         "View and add information to your favorite animals. Introduction to server-side CRUD operations; intorduction to Express.js.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "http://redpandanetwork.org/get/files/image/galleries/Sarah-Jones.jpeg",
+        "https://nationalzoo.si.edu/sites/default/files/newsroom/meixiang.jpg",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/jyanev01/zookeepr",
     },
@@ -94,7 +94,7 @@ export default {
         "Refactoring of exisitng webpage for mobile first optimization and asyncronous deployment.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/02/pasted-image-0.png?resize=549%2C240&ssl=1",
       //Project URL - Add Your Project Url Here
       url: "https://jyanev01.github.io/Refactoring-of-Biz-HTML/",
     },
@@ -104,7 +104,7 @@ export default {
         "Job posting board using the MERN stack. Final project using user authentication, asynchronous calls, MongoDB, Express.Js, React, Node.JS and Chakra-UI framework.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+        "https://media.istockphoto.com/photos/top-view-of-a-white-desktop-concept-job-search-picture-id1279104620?k=20&m=1279104620&s=612x612&w=0&h=Lit4OzCRPW6Z5Pq1L4b9ZjUJvx6McLJySTLnUjJsECE=",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/mtlankenau/gregs-list",
     },
