@@ -21,6 +21,7 @@ import githubIcon from "./images/github.svg"
 // import dribbbleIcon from "./images/dribbble.svg"
 // import instagramIcon from "./images/instagram.svg"
 import linkedInIcon from "./images/LI-In-Bug.png"
+import twitterIcon from "./images/icons8-twitter.svg"
 
 
 export default {
@@ -192,10 +193,10 @@ export default {
       img: linkedInIcon, 
       url: "https://www.linkedin.com/in/jordanyanev/" 
     },
-    // {
-    //   img: codepenIcon,
-    //   url: "https://www.codepen.com/",
-    // },
+    {
+      img: twitterIcon,
+      url: "https://twitter.com/home",
+    },
     // {
     //   img: dribbbleIcon,
     //   url: "https://dribbble.com/chetanverma",
