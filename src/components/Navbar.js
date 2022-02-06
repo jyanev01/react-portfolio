@@ -1,5 +1,6 @@
 import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
+import resume from "../resume.pdf"
 
 const Navbar = () => {
   return (

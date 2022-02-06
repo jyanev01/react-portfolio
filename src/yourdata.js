@@ -12,6 +12,7 @@ import codeIcon from "./images/code.svg"
 import pokeGen from "./images/hero-pokegen_bg.png"
 import cockTail from "./images/cocktail_logo.png"
 import runBuddy from "./images/hero-bg.jpg"
+import weddingPhoto from "./images/Santorini-28.jpg"
 
 
 // Social Icon
@@ -38,7 +39,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "Full Stack Web Developer with a decade of experience in finance and accounting",
+    "Full Stack Web Developer with a decade of experience as a Certified Public Accountant",
 
   //Contact Email
   contactEmail: "jordanyanev@gmail.com",
@@ -122,13 +123,13 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Welcome! I am a new to coding and a recent graduate of University of Richmond's 24 coding bootcamp! This has always been a passion of mine and I recently embarked on this journey to pursue my dreams.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "Prior to joining the bootcamp, I am a graduate of the University of Richmond with a Bachelors of Science in Accountancy. I am currenlty a Certified Public Accountant who works primarily in high net-worth and small business taxation",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "My goal is to demonstrate the skills that I have learned during this bootcamp in the hopes of transitioning to a full time software development role. I am constantly learning and looking to fine- tune the skills I have acquired and grow as a developer",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    weddingPhoto,
 
   //   End About Section ---------------------
 
@@ -140,32 +141,32 @@ export default {
     {
       img: htmlIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "HTML",
     },
     {
       img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "CSS",
     },
     {
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "JavaScript",
     },
     {
       img: reactIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "React",
     },
     {
       img: designIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "WebDesign",
     },
     {
       img: codeIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Full Stack Frameworks",
     },
   ],
 
@@ -173,7 +174,7 @@ export default {
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
+  promotionHeading: "Passion",
   promotionPara:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   // End Promotion Section -----------------

@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
+import resume from "../resume.pdf"
 
 const Footer = () => {
   return (
@@ -14,6 +15,8 @@ const Footer = () => {
           <a className="email-link" href={`mailto:${data.contactEmail}`}>
             {data.contactEmail}
           </a>
+          <a href={resume} download="resume.pdf"> Download My Resume</a>
+
           <div className="social-icons">
             {data.social.map((socialLink, index) => (
               <a
