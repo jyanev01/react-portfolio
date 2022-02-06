@@ -31,15 +31,15 @@ export default {
   name: "Jordan ",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Looking,",
     //Line 2 For Header
-    "products, brands,",
+    "Learning,",
     //Line 3 For Header
-    "and experience",
+    "Excited to code",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Full Stack Web Developer with a decade of experience as a Certified Public Accountant",
+    "Full Stack Web Developer with a decade of experience as a CPA.",
 
   //Contact Email
   contactEmail: "jordanyanev@gmail.com",
@@ -83,7 +83,7 @@ export default {
         "View and add information to your favorite animals. Introduction to server-side CRUD operations; intorduction to Express.js.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://unsplash.com/photos/OLoIfDsPktY",
+        "http://redpandanetwork.org/get/files/image/galleries/Sarah-Jones.jpeg",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/jyanev01/zookeepr",
     },
