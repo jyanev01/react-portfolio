@@ -129,8 +129,8 @@ export default {
     "Prior to joining the bootcamp, I am a graduate of the University of Richmond with a Bachelors of Science in Accountancy. I am currenlty a Certified Public Accountant who works primarily in high net-worth and small business taxation",
   aboutParaThree:
     "My goal is to demonstrate the skills that I have learned during this bootcamp in the hopes of transitioning to a full time software development role. I am constantly learning and looking to fine- tune the skills I have acquired and grow as a developer",
-  aboutImage:
-    weddingPhoto,
+  // aboutImage:
+  //   weddingPhoto,
 
   //   End About Section ---------------------
 
@@ -177,7 +177,7 @@ export default {
 
   promotionHeading: "Passion",
   promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "I am very passionate about technology as it can change our future. I firmly belive that coding is the future and want to actively challenge all professionals to help develop the next generation of professional coders. As our society progresses into being ever more reliant on technology to solve our most pressing issues. Outside of work I love hiking, biking and traveling to new places.",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
