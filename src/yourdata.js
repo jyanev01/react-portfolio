@@ -129,8 +129,8 @@ export default {
     "Prior to joining the bootcamp, I am a graduate of the University of Richmond with a Bachelors of Science in Accountancy. I am currenlty a Certified Public Accountant who works primarily in high net-worth and small business taxation",
   aboutParaThree:
     "My goal is to demonstrate the skills that I have learned during this bootcamp in the hopes of transitioning to a full time software development role. I am constantly learning and looking to fine- tune the skills I have acquired and grow as a developer",
-  // aboutImage:
-  //   weddingPhoto,
+  aboutImage:
+    "https://media-exp1.licdn.com/dms/image/C5603AQEQcsV9JoY3Sg/profile-displayphoto-shrink_400_400/0/1638198667686?e=1649894400&v=beta&t=3ffgAg7Wy9n3CUtXOtBWODOWP897aDPh-gLU252F5FQ",
 
   //   End About Section ---------------------
 
