@@ -106,7 +106,7 @@ export default {
       imageSrc:
         "https://media.istockphoto.com/photos/top-view-of-a-white-desktop-concept-job-search-picture-id1279104620?k=20&m=1279104620&s=612x612&w=0&h=Lit4OzCRPW6Z5Pq1L4b9ZjUJvx6McLJySTLnUjJsECE=",
       //Project URL - Add Your Project Url Here
-      url: "https://github.com/mtlankenau/gregs-list",
+      url: "https://gregs-list-1.herokuapp.com/",
     },
 
     /*
