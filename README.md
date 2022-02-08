@@ -24,6 +24,8 @@
   # License
   MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+  Gatsby.Js template created by chetanverma16
+
   # Contributions
   no
 
