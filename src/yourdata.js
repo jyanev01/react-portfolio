@@ -124,7 +124,7 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Welcome! I am a new to coding and a recent graduate of University of Richmond's 24 coding bootcamp! This has always been a passion of mine and I recently embarked on this journey to pursue my dreams.",
+    "Welcome! I am new to coding and a recent graduate of University of Richmond's 24-week coding bootcamp! This has always been a passion of mine and I recently embarked on this journey to pursue my dreams.",
   aboutParaTwo:
     "Prior to joining the bootcamp, I am a graduate of the University of Richmond with a Bachelors of Science in Accountancy. I am currenlty a Certified Public Accountant who works primarily in high net-worth and small business taxation",
   aboutParaThree:
