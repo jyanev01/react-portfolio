@@ -50,6 +50,16 @@ export default {
   // Work Section ------------------------
   projects: [
     {
+      title: "Gregg's List", //Project Title - Add Your Project Title Here
+      para:
+        "Job posting board using the MERN stack. Final project using user authentication, asynchronous calls, MongoDB, Express.Js, React, Node.JS and Chakra-UI framework.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://media.istockphoto.com/photos/top-view-of-a-white-desktop-concept-job-search-picture-id1279104620?k=20&m=1279104620&s=612x612&w=0&h=Lit4OzCRPW6Z5Pq1L4b9ZjUJvx6McLJySTLnUjJsECE=",
+      //Project URL - Add Your Project Url Here
+      url: "https://gregs-list-1.herokuapp.com/",
+    },
+    {
       title: "PokeGen", //Project Title - Add Your Project Title Here
       para:
         "A place where users can create their own pokemon cards.", // Add Your Service Type Here
@@ -98,16 +108,7 @@ export default {
       //Project URL - Add Your Project Url Here
       url: "https://jyanev01.github.io/Refactoring-of-Biz-HTML/",
     },
-    {
-      title: "Gregg's List", //Project Title - Add Your Project Title Here
-      para:
-        "Job posting board using the MERN stack. Final project using user authentication, asynchronous calls, MongoDB, Express.Js, React, Node.JS and Chakra-UI framework.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://media.istockphoto.com/photos/top-view-of-a-white-desktop-concept-job-search-picture-id1279104620?k=20&m=1279104620&s=612x612&w=0&h=Lit4OzCRPW6Z5Pq1L4b9ZjUJvx6McLJySTLnUjJsECE=",
-      //Project URL - Add Your Project Url Here
-      url: "https://gregs-list-1.herokuapp.com/",
-    },
+    
 
     /*
     If You Want To Add More Project just Copy and Paste This At The End
